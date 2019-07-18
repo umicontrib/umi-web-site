@@ -22,4 +22,16 @@ class IndexController extends Controller
     public function team(){
       return view('team');
     }
+    public function comingSoon(){
+      return view('coming-soon');
+    }
+    public function contact(){
+      return view('contact');
+    }
+    public function faq(){
+      return view('faq');
+    }
+    public function portfolio(){
+      return view('portfolio');
+    }
 }

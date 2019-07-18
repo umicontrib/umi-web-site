@@ -53,6 +53,11 @@ Route::get('/about','IndexController@about');
 Route::get('/service','IndexController@service');
 Route::get('/team','IndexController@team');
 
+Route::get('/coming-Soon','IndexController@comingSoon');
+Route::get('/contact','IndexController@contact');
+Route::get('/faq','IndexController@faq');
+Route::get('/portfolio','IndexController@portfolio');
+
 Route::get('/register','RegistrationController@register');
 Route::post('/register','RegistrationController@postRegister');
 // Affichage du résultat de la recherche
