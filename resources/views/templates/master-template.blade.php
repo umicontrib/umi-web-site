@@ -30,7 +30,7 @@
                 <div class="row">
                     <div class="col-6 col-sm-3 logo-column">
                         <a href="index.html" class="logo">
-                            <img src="{{asset('assets/res/img/logo.png')}}" alt="logo">
+                            <img src="{{asset('assets/ressources/images/logo.png')}}" alt="logo">
                         </a>
                     </div>
                     <div class="col-6 col-sm-9 nav-column clearfix">
@@ -49,32 +49,27 @@
                         <nav id="menu" class="d-none d-lg-block">
                             <ul>
                                 <li class="current-menu-item has-child">
-                                    <a href="index.html">Home</a>
+                                    <a href="{{url('/')}}">Home</a>
                                     <ul class="sub-menu">
-                                        <li><a href="index.html">Home - 01</a></li>
-                                        <li><a href="index-2.html">Home - 02</a></li>
-                                        <li><a href="index-3.html">Home - 03</a></li>
+                                        <li><a href="{{url('/')}}">Home - 01</a></li>
+                                        <li><a href="{{url('/')}}">Home - 02</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="about.html">About</a></li>
+                                <li><a href="{{url('about')}}">About</a></li>
                                 <li><a href="portfolio.html">Portfolio</a></li>
                                 <li class="has-child">
                                     <a href="#">Pages</a>
                                     <ul class="sub-menu">
-                                        <li><a href="404.html">404</a></li>
                                         <li><a href="{{url('about')}}">About</a></li>
-                                        <li><a href="career.html">Career</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="faq.html">Faq</a></li>
-                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                        <li><a href="pricing.html">Pricing</a></li>
-                                        <li><a href="service.html">Service</a></li>
-                                        <li><a href="team.html">Team</a></li>
-                                        <li><a href="testimonial.html">Testimonial</a></li>
+                                        <li><a href="{{url('coming-Soon')}}">Coming Soon</a></li>
+                                        <li><a href="{{url('contact')}}">Contact</a></li>
+                                        <li><a href="{{url('faq')}}">Faq</a></li>
+                                        <li><a href="{{url('portfolio')}}">Portfolio</a></li>
+                                        <li><a href="{{url('service')}}">Service</a></li>
+                                        <li><a href="{{url('team')}}">Team</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="{{url('contact')}}">Contact</a></li>
                             </ul>
                         </nav>
                     </div>

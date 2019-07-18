@@ -15,4 +15,11 @@ class IndexController extends Controller
     public function about(){
       return view('about');
     }
+    //page des services
+    public function service(){
+      return view('service');
+    }
+    public function team(){
+      return view('team');
+    }
 }

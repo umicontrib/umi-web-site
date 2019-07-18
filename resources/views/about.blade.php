@@ -1,7 +1,7 @@
 @extends('./templates/master-template')
 
 @section('titre') 
-  Details ser
+  Apropos
 @endsection
 
 @push('othersCss')
@@ -11,8 +11,8 @@
 @endpush
  
 @section('contenu')
- 
-        <div class="page-title sp" style="background-image: url(assets/res/img/page-title.jpg)">
+        <div class="page-title sp">
+          <!--  style="background-image: url(assets/res/img/page-title.jpg) -->
             <div class="container text-center">
                 <h2>About Us</h2>
                 <p>Malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
