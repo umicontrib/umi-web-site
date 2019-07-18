@@ -82,7 +82,8 @@
             <li class="scroll"><a  href="{{ url('/')}}#portfolio">Portfolio</a></li>
             <li class="scroll"><a  href="{{ url('/')}}#team">Team</a></li>
             <li class="scroll"><a  href="{{ url('/')}}#blog">Blog</a></li>
-            <li class="scroll"><a href="{{ url('/')}}#contact">Contact</a></li>       
+            <li class="scroll"><a href="{{ url('/')}}#contact">Contact</a></li>
+            <li class="scroll"><a href="{{ url('faq')}}">Faq</a></li>              
           </ul>
         </div>
       </div>
