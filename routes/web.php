@@ -49,6 +49,8 @@ Route::get('/logout','LoginController@logout');
 
 // Route pour la page d'accueil
 Route::get('/','IndexController@index');
+Route::get('/about','IndexController@about');
+
 Route::get('/register','RegistrationController@register');
 Route::post('/register','RegistrationController@postRegister');
 // Affichage du résultat de la recherche
