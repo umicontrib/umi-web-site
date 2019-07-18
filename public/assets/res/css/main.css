@@ -58,14 +58,14 @@
 .single-service.bordered .inner:hover h4,
 .bordered.single-service-2 .inner:hover h4,
 .bordered.single-service-3 .inner:hover h4, .single-service-3 .inner:hover .title .icon, .isotope-menu li.active, .isotope-menu li:hover, .single-portfolio .inner .portfolio-img .hover-content .button, .single-portfolio .inner .portfolio-content h3:hover, .faq-sidebar li a, .single-pricing .inner a.button:hover, .single-pricing-2 .inner a.button:hover, .single-pricing-2.active .inner a.button {
-  color: #4698ff; }
+  color: #7435c7; }
 
 .c3-bg, .bg1, .button, .hero-slider .owl-dots .owl-dot.active, .single-service-2:hover .inner, .single-portfolio .inner .portfolio-img .hover-content, .faq .single-item.active, .single-faq h2 span, .footer_widget .nw_form button, .tabs-area .tabs-nav li a.active, .single-team .inner .team-img::after, .single-pricing.active .inner, .active.single-pricing-2 .inner, .single-pricing-2.active .inner .title .price {
-  background-color: #4698ff; }
+  background-color:#7435c7; }/*#4698ff*/
 
 .c3-bo, .button, .single-service.bordered .inner:hover, .bordered.single-service-2 .inner:hover, .bordered.single-service-3 .inner:hover, .testimonial-slider .single-slide, .tabs-area .tabs-nav li a::after, .tabs-area .tabs-nav li a.active, .contact-form input:not([type="submit"]):focus,
 .contact-form textarea:focus {
-  border-color: #4698ff !important; }
+  border-color: #604a7d !important; }/*#4698ff*/
 
 .trns, .button, .button-2, .nav-column a, .nav-column span, .nav-column .right-nav span, form.search-form, #menu ul > li > a, #menu ul ul, #menu ul ul::after, #menu ul ul li a, .hero-slider .owl-dots .owl-dot, .single-service .inner, .single-service-2 .inner, .single-service-3 .inner, .single-service .inner .title .icon, .single-service-2 .inner .title .icon, .single-service-3 .inner .title .icon, .single-service .inner .title h4, .single-service-2 .inner .title h4, .single-service-3 .inner .title h4, .single-service .inner .content, .single-service-2 .inner .content, .single-service-3 .inner .content, .isotope-menu li, .single-portfolio .inner .portfolio-img .hover-content, .single-portfolio .inner .portfolio-content h3, .faq-sidebar li a, .single-team .inner .team-img::after, .contact-form input:not([type="submit"]),
 .contact-form textarea {
@@ -232,10 +232,10 @@ body {
   font-size: 14px;
   line-height: 27px;
   font-weight: 400;
-  color: #2d3666; }
+  color: #06000c; }/*#2d3666*/
 
 h1, h2, h3, h4, h5, h6 {
-  color: #222538; }
+  color: #390568; }
 
 iframe {
   border: none; }
@@ -251,7 +251,7 @@ iframe {
  *   01. header
  ***************************** */
 header {
-  background-color: #222538;
+  background-color:#390574;/* #222538*/
   padding: 18px 0; }
 
 .logo-column a.logo {
@@ -264,12 +264,15 @@ header {
   padding: 5px 0;
   font-size: 16px; }
   .nav-column a, .nav-column span {
-    color: #7286a0;
+    /* color: #7286a0; */
+    color: #f3f1f6;
     line-height: 25px;
     vertical-align: top;
     cursor: pointer; }
     .nav-column a:hover, .nav-column span:hover {
-      color: #b5c3d4; }
+      /* color: #b5c3d4; */
+      color: #bcb0ca;
+     }
   .nav-column .right-nav {
     float: right;
     position: relative; }
@@ -335,9 +338,13 @@ form.search-form button {
       font-weight: 500;
       line-height: 25px; }
       #menu ul > li > a:hover {
-        color: #b5c3d4; }
+        /* color: #b5c3d4; */
+        color: #bcb0ca;
+       }
     #menu ul > li.current-menu-item > a {
-      color: #b5c3d4; }
+      /* color: #b5c3d4;  */
+      color: #bcb0ca;
+    }
 
 #menu ul ul {
   position: absolute;
@@ -370,7 +377,8 @@ form.search-form button {
     #menu ul ul li a {
       display: block;
       font-weight: 300;
-      color: #222538;
+      /* color: #222538; */
+      color: #734ea1;
       font-size: 13px;
       padding: 0;
       margin: 5px 0; }
@@ -1264,6 +1272,7 @@ footer {
   .error-area h1 {
     font-size: 40px;
     font-weith: 400;
-    margin: 0 0 20px; }
+    margin: 0 0 20px; 
+  }
 
 /*# sourceMappingURL=main.css.map */
